@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #381664;
+    font-family: 'Syne';
+    box-sizing: border-box;
+    background-color: #ECF6FE;
+}
+.flex{
+    display: flex;
+}
+
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+header h1{
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 2rem;
+}
+.nav{
+    justify-content: flex-start;
+    gap: 20px;
+    padding-right: 2rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.nav a{
+    color: #381664;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 20px;
+} 
