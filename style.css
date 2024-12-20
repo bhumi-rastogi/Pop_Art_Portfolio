@@ -34,3 +34,20 @@ header h1{
     padding: 1rem;
     font-size: 20px;
 } 
+
+
+/*  heading  */
+#about{
+    font-size: 8em;
+   text-align: center;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+/* big image */
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+}
