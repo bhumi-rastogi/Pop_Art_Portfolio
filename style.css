@@ -72,3 +72,44 @@ header h1{
 .work{
     margin-bottom: 4%;
 }
+
+/* blog*/
+#blog{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Familjen Grotesk;
+    margin-left: 60%;
+    font-size: 1.4rem;
+
+}
+
+
+/* info */
+.user-info{
+    margin-top: 150px;
+    text-align: center;
+}
+.user-info h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.user-info input,.user-info button{
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+.user-info input{
+    border: 1px solid #381664;
+    width: 30%;
+    margin-right: 6px;
+}
+input::placeholder{
+    color: #381664;
+}
+.user-info button{
+    background-color: #440A8F;
+    color: white;
+    padding: 12px 26px;
+    border: none;
+    margin-bottom: 40px;
+}
