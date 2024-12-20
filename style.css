@@ -226,3 +226,53 @@ footer button{
         margin-top: -100px;
     }
 }
+
+/* tab */
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* header */
+    header h1{
+        font-size: 3.5rem;
+    }
+    header .nav a{
+        font-size: 1.7rem;
+    }
+
+    /* heading */
+    #about{
+        font-size: 6rem;
+    }
+    .banner{
+        width: 95%;
+        height: 470px;
+    }
+    #projects {
+        margin-top: 15vh; 
+    }
+    .row {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .pics {
+        width: 80vw; /* Adjust image width to fit smaller screens */
+        height: auto; 
+        margin-bottom: 10px; 
+    }
+    .description {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #blog{
+       margin: 5%;
+    }
+    #blog p{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+}
