@@ -113,3 +113,36 @@ input::placeholder{
     border: none;
     margin-bottom: 40px;
 }
+
+/* icon */
+.icon{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.icon img{
+    height: 5 rem;
+    width: 3 rem;
+    margin-left: 20px;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 3%;
+    padding-bottom: 20px;
+}
+footer p{
+    margin-left: 10px;
+    font-size: 1.25rem;
+}
+footer button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 1px solid #4408AF;
+    background-color: #ECF6FE;
+    font-size: 1.25rem;
+}
