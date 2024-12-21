@@ -258,7 +258,7 @@ footer button{
         align-items: center; 
     }
     .pics {
-        width: 80vw; /* Adjust image width to fit smaller screens */
+        width: 80vw; 
         height: auto; 
         margin-bottom: 10px; 
     }
